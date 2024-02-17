@@ -12,7 +12,7 @@ We say that an edge is a priority edge for routing traffic flow from source s to
 
 Given the above inputs, you should design and implement an algorithm that returns a list of all priority edges in the graph (or an empty list if there are none). The list can be in any order. For full credit, your solution will need to have an empirical runtime that is within constant factors of an O(nm2) reference solution where n is the number of vertices and m is the number of edges.
 
-**Language-specific details** 
-Python
+**Language-specific Details** 
+[Python]
 
 def find_edges(edges:[(u:int,v:int)], capacities:[int], s:int, t:int) and returns a list of tuples (u,v) that are priority edges or an empty list []
